@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995AABE91F7148E900BF1D37 /* MainSubclassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AABE81F7148E900BF1D37 /* MainSubclassViewController.swift */; };
+		995AABEB1F714A1000BF1D37 /* CoreDataMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AABEA1F714A1000BF1D37 /* CoreDataMainViewController.swift */; };
+		995AABED1F71611500BF1D37 /* CoreDataTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AABEC1F71611500BF1D37 /* CoreDataTableViewController2.swift */; };
+		995AABEF1F7162EF00BF1D37 /* MainTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995AABEE1F7162EF00BF1D37 /* MainTableViewController2.swift */; };
 		9996301A1F6F15DE001E695A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999630191F6F15DE001E695A /* AppDelegate.swift */; };
 		9996301F1F6F15DE001E695A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9996301D1F6F15DE001E695A /* Main.storyboard */; };
 		999630211F6F15DE001E695A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 999630201F6F15DE001E695A /* Assets.xcassets */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		995AABE81F7148E900BF1D37 /* MainSubclassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSubclassViewController.swift; sourceTree = "<group>"; };
+		995AABEA1F714A1000BF1D37 /* CoreDataMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataMainViewController.swift; sourceTree = "<group>"; };
+		995AABEC1F71611500BF1D37 /* CoreDataTableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController2.swift; sourceTree = "<group>"; };
+		995AABEE1F7162EF00BF1D37 /* MainTableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController2.swift; sourceTree = "<group>"; };
 		999630161F6F15DE001E695A /* CoreDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999630191F6F15DE001E695A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9996301E1F6F15DE001E695A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,8 +85,10 @@
 				999630221F6F15DE001E695A /* LaunchScreen.storyboard */,
 				999630251F6F15DE001E695A /* Info.plist */,
 				9996302B1F6F1624001E695A /* MainTableViewController.swift */,
+				995AABEE1F7162EF00BF1D37 /* MainTableViewController2.swift */,
 				9996303B1F6F2B93001E695A /* MainCollectionViewController.swift */,
 				9996303D1F6F345C001E695A /* TestCollectionViewCell.swift */,
+				995AABE81F7148E900BF1D37 /* MainSubclassViewController.swift */,
 			);
 			path = CoreDataTest;
 			sourceTree = "<group>";
@@ -87,8 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				999630391F6F246A001E695A /* CoreDataCollectionViewController.swift */,
+				995AABEA1F714A1000BF1D37 /* CoreDataMainViewController.swift */,
 				999630351F6F173A001E695A /* CoreDataStack.swift */,
 				999630371F6F1A19001E695A /* CoreDataTableViewController.swift */,
+				995AABEC1F71611500BF1D37 /* CoreDataTableViewController2.swift */,
 				999630301F6F16CE001E695A /* TestEntity+CoreDataClass.swift */,
 				999630311F6F16CE001E695A /* TestEntity+CoreDataProperties.swift */,
 				9996302D1F6F1678001E695A /* TestDataModel.xcdatamodeld */,
@@ -170,11 +182,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9996303E1F6F345C001E695A /* TestCollectionViewCell.swift in Sources */,
+				995AABED1F71611500BF1D37 /* CoreDataTableViewController2.swift in Sources */,
 				999630381F6F1A19001E695A /* CoreDataTableViewController.swift in Sources */,
 				9996302F1F6F1678001E695A /* TestDataModel.xcdatamodeld in Sources */,
 				9996302C1F6F1624001E695A /* MainTableViewController.swift in Sources */,
+				995AABEB1F714A1000BF1D37 /* CoreDataMainViewController.swift in Sources */,
+				995AABE91F7148E900BF1D37 /* MainSubclassViewController.swift in Sources */,
 				999630321F6F16CE001E695A /* TestEntity+CoreDataClass.swift in Sources */,
 				9996303C1F6F2B93001E695A /* MainCollectionViewController.swift in Sources */,
+				995AABEF1F7162EF00BF1D37 /* MainTableViewController2.swift in Sources */,
 				999630361F6F173A001E695A /* CoreDataStack.swift in Sources */,
 				999630331F6F16CE001E695A /* TestEntity+CoreDataProperties.swift in Sources */,
 				9996301A1F6F15DE001E695A /* AppDelegate.swift in Sources */,
